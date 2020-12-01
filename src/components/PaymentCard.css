@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    background: #f8f8f8;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.error-message {
+    font-size: small;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-left: 20px;
+    color: rgb(255, 89, 89);
+}
+
+.input-container {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 90px 90px 90px;
+    grid-template-areas: "number number""expiration security""name name";
+    min-width: 400px;
+    max-width: 500px;
+    padding: 20px;
+    color: #575757;
+}
+
+.input-field-container {
+    margin-top: 20px;
+}
+
+.input-field-container select{
+    appearance: none;
+    display: inline;
+    margin: 3px 10px 10px 0px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    background: white;
+    border: 1px solid #dcdcdc;
+}
+
+#card-number {
+    grid-area: number;
+}
+
+#expiration-date{
+    grid-area: expiration;
+}
+
+#security-code {
+    grid-area: security;
+}
+
+#card-name {
+    grid-area: name;
+}
+
+label {
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+input {
+    margin-top: 3px;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+}
+
+.submit-btn {
+    padding: 20px;
+    min-width: 400px;
+    max-width: 500px;
+}
+
+.button-primary {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333;
+    border: none;
+}
+
+.button-primary:hover {
+    box-shadow: 2px 2px 8px #333;
+}
