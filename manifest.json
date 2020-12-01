@@ -1,0 +1,9 @@
+{
+  "short_name": "React Payment Card",
+  "name": "React Payment Card",
+
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
